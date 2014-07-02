@@ -1,0 +1,17 @@
+[
+{
+"modid": "Genecraft",
+    "name": "Gene Craft",
+    "description": "use science to enhance yourself",
+    "version": "1.7.2-0.1",
+    "mcversion": "1.7.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["poseidoneros"],
+    "credits": "me and pahimar's letsmod reboot series",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "dependencies": [ ]
+}
+]
