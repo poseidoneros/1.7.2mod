@@ -3,6 +3,7 @@ package com.poseidoneros.genecraft;
 import com.poseidoneros.genecraft.Handler.ConfigurationHandler;
 import com.poseidoneros.genecraft.proxy.IProxy;
 import com.poseidoneros.genecraft.reference.Reference;
+import com.poseidoneros.genecraft.utillity.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -25,15 +26,16 @@ public class GeneCraft
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        LogHelper.info("PreInit Complete");
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        LogHelper.info("Init Complete");
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        LogHelper.info("PostInit Complete");
     }
 }
