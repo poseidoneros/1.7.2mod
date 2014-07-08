@@ -1,6 +1,7 @@
 package com.poseidoneros.genecraft;
 
 import com.poseidoneros.genecraft.Handler.ConfigurationHandler;
+import com.poseidoneros.genecraft.init.ModItems;
 import com.poseidoneros.genecraft.proxy.IProxy;
 import com.poseidoneros.genecraft.reference.Reference;
 import com.poseidoneros.genecraft.utillity.LogHelper;
@@ -26,6 +27,7 @@ public class GeneCraft
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
         LogHelper.info("PreInit Complete");
     }
     @Mod.EventHandler

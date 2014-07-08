@@ -19,7 +19,7 @@ apply plugin: 'forge'
 
 version = "1.7.10-0.1"
 group= "com.poseidoneros.genecraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "Genecraft"
+archivesBaseName = "genecraft"
 
 minecraft {
     version = "1.7.10-10.13.0.1160"

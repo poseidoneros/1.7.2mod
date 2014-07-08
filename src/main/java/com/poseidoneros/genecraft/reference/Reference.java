@@ -3,7 +3,7 @@ package com.poseidoneros.genecraft.reference;
 
 public class Reference
 {
-    public static final String MOD_ID = "Genecraft";
+    public static final String MOD_ID = "genecraft";
     public static final String MOD_NAME = "Gene Craft";
     public static final String MOD_VERSION = "1.7.10-0.1";
 
